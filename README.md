@@ -10,6 +10,6 @@ The purpose of the script is if you are looking to do some promotional or initia
 
 To get this script to work you need create a corresponding .csv file as attacked in the repository. The script will parse over the columns and input the variables in the required areas. 
 
-Add any comments or updates please. 
+Please contribute. 
 
-Happy codemas.
+Merry codemas.
