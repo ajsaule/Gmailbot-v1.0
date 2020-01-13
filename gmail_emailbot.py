@@ -1,8 +1,7 @@
 import csv, yagmail
 
 mail = yagmail.SMTP('andrejsaule8@gmail.com')
-#Opens and gets computer to read the csv file you created
-    #You can make as many columns as you want and then put them as a placeholder
+#You can make as many columns as you want and then put them as a placeholder
 with open("test_test.csv") as file:
     reader = csv.reader(file)
     next(reader) #skip header row of file
