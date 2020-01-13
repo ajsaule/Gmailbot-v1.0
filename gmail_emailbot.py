@@ -7,10 +7,10 @@ with open("test_test.csv") as file:
     reader = csv.reader(file)
     next(reader) #skip header row of file
     for email, name, corp in reader:
-        #Tells you who the email is being sent to via terminal
         print(f"Sending email to {name}")
         #You can create and style the body of the email with some HTML below using tags etc.
-        #I also added a signature below from the src= 'file_url'
+        #f infront of the quote marks will determine that it is a function
+        #I added a signature below from the src= 'file_url'
         contents = [
         f"""\<p> Insert body of email here {email}</p>
                 <img src="reference attachments" width="497" height="etc" class="etc" tabindex="etc">
