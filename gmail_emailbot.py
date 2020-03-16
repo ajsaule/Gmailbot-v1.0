@@ -1,6 +1,6 @@
 import csv, yagmail
 
-mail = yagmail.SMTP('andrejsaule8@gmail.com')
+mail = yagmail.SMTP('youremailaddress@gmail.com')
 #You can make as many columns as you want and then put them as a placeholder
 with open("test_test.csv") as file:
     reader = csv.reader(file)
